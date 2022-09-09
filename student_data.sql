@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 28, 2022 at 05:44 AM
+-- Generation Time: Sep 09, 2022 at 07:43 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.4
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_student_data`
+-- Database: `student_data`
 --
 
 -- --------------------------------------------------------
@@ -117,9 +117,7 @@ CREATE TABLE `stdudent_models` (
 --
 
 INSERT INTO `stdudent_models` (`id`, `name`, `roll`, `registration_no`, `department`, `semester`, `father_name`, `mother_name`, `gender`, `status`, `created_at`, `updated_at`) VALUES
-(2, 'Asadullah', 1, 400035, 'cse', 'fall', 'Md Mofijul Islam', 'Mst Fatema Begum', 'male', 1, '2022-08-27 21:40:18', '2022-08-27 21:41:43'),
-(3, 'Al', 2, 40065, 'eee', 'summer', 'MD', 'MST', 'male', 0, '2022-08-27 21:40:56', '2022-08-27 21:40:56'),
-(4, 'Imran', 3, 342141, 'arch', 'spring', 'Islam', 'Begum', 'male', 1, '2022-08-27 21:41:31', '2022-08-27 21:41:31');
+(1, 'Asadullah Al Imran', 21, 345342, 'cse', 'fall', 'Md Mofijul Islam', 'Mst Fatema Begum', 'male', 1, '2022-09-09 11:32:59', '2022-09-09 11:35:06');
 
 -- --------------------------------------------------------
 
@@ -208,7 +206,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `stdudent_models`
 --
 ALTER TABLE `stdudent_models`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `users`
